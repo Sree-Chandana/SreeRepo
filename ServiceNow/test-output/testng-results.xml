@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="216267" started-at="2019-09-27T11:38:08Z" finished-at="2019-09-27T11:41:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="216267" started-at="2019-09-27T11:38:08Z" finished-at="2019-09-27T11:41:44Z">
+      <class name="ass2_ServiceNow.SN_TC_01">
+        <test-method status="PASS" signature="setData()[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="setData" is-config="true" duration-ms="20" started-at="2019-09-27T11:38:08Z" finished-at="2019-09-27T11:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="start()[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="start" is-config="true" duration-ms="30772" started-at="2019-09-27T11:38:09Z" finished-at="2019-09-27T11:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="SN_createIncident(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="SN_createIncident" duration-ms="81084" started-at="2019-09-27T11:38:39Z" data-provider="SNData" finished-at="2019-09-27T11:40:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abel Tuter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SN_createIncident -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="close" is-config="true" duration-ms="194" started-at="2019-09-27T11:40:01Z" finished-at="2019-09-27T11:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="start()[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="start" is-config="true" duration-ms="18529" started-at="2019-09-27T11:40:01Z" finished-at="2019-09-27T11:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="SN_createIncident(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="SN_createIncident" duration-ms="82241" started-at="2019-09-27T11:40:19Z" data-provider="SNData" finished-at="2019-09-27T11:41:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Incident]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Abraham Lincoln]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SN_createIncident -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ass2_ServiceNow.SN_TC_01@68c4039c]" name="close" is-config="true" duration-ms="2344" started-at="2019-09-27T11:41:41Z" finished-at="2019-09-27T11:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ass2_ServiceNow.SN_TC_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
